@@ -72,10 +72,10 @@ Més recursos:
 - [ ] ..
 
 
-## PARALLAX
+## PARALLAX EFFECT
 
 - [x] Basic parallax with fixed image. La imatge es manté fixa i en fer scroll, el text hi passa per sobre. Codi original [aqui](https://www.w3schools.com/howto/howto_css_parallax.asp)
-- [x] Use a library to implement Parallax effect that add a dynamic feel to your interfaces. For instance: [Simple Parallax](https://simpleparallax.com)
+- [x] Use a library to implement Parallax effect that add a dynamic feel to your interfaces. For instance: [simplePARALLAX.js](https://simpleparallax.com)
 
 
 ## OVERLAY
@@ -88,6 +88,13 @@ Més recursos:
 
 (pdt.....)
 
-## Carousel
 
-(pdt.....)
+## CAROUSEL - Slideshow  (pendent!!!!)
+
+- [ ] Slideshow no automàtic. Fés-li un cop d'ull [aquí](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+- [ ] Slideshow automàtic. En clicar sobre les imatges, rota. Caldria afegir-li uns botons per fer-lo "professional". Codi original [aqui](https://www.freecodecamp.org/news/how-to-create-a-slideshow/ ) i [aquí](https://codepen.io/AndresUris/pen/rGXpvE)
+
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
