@@ -5,24 +5,27 @@ Copy them and modify the code to adapt to your application.
 
 REMEMBER: Always try to improve the code and remove what is unnecessary. 
 
-## _Quick Tricks
 
-Basic CSS and JS tricks that sometimes we can not remember exactly how to do.
+## SHORT SNIPPETS !
+
+Those short _snippets_ that we just can remember when we need them...
 
 - [x] Including CSS and JS files in an HTML doc
 
-## Flexbox
+
+## FLEXBOX
 
 (pdt.....)
 
 
-## Grid
+
+## GRID
 
 - [x] Basic Grid
 - [ ] A basic webpage build using Grid
 
 
-## Jump-Button
+## HOP-UP BUTTON
 
 (pdt.....)
 
@@ -30,7 +33,8 @@ Basic CSS and JS tricks that sometimes we can not remember exactly how to do.
 - [ ] Jump across with a transition
 
 
-## Menus
+
+## MENUS
 
 ### Topnav menu
 
@@ -61,20 +65,20 @@ Més recursos:
 
 
 
-## Modal (== Pop up)
+## MODAL (== POP UP)
 
 (pdt.....)
 
 - [ ] ..
 
 
-## Parallax
+## PARALLAX
 
-(pdt.....)
+- [x] Basic parallax with fixed image. La imatge es manté fixa i en fer scroll, el text hi passa per sobre. Codi original [aqui](https://www.w3schools.com/howto/howto_css_parallax.asp)
+- [x] Use a library to implement Parallax effect that add a dynamic feel to your interfaces. For instance: [Simple Parallax](https://simpleparallax.com)
 
-- [ ] Basic parallax example 
 
-## Overlay
+## OVERLAY
 
 (pdt.....)
 
