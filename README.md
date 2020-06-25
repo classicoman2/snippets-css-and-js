@@ -46,15 +46,18 @@ Més recursos:
 
 ### Sidebar Menus
 
-- [x] Fixed Sidebar Menu: fés-li un cop d'ull [aquí](https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp)
-- [x] Fixex Sidebar Menu w/Dropwown: fés-li un cop d'ull [aqui](https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp)
-- [x] Responsive Sidebar Menu: fés-li un cop d'ull [aqui](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidebar_responsive)
+- [x] **Fixed Sidebar Menu**. Fés-li un cop d'ull [aquí](https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp)
+- [x] **Fixed Sidebar Menu w/Dropwown**. Fés-li un cop d'ull [aqui](https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp)
+- [x] **Responsive Sidebar Menu**. Fés-li un cop d'ull [aqui](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidebar_responsive)
 
 ### Variations over menus (pdt)
 
-https://docs.google.com/presentation/d/1vzFlxM8UAmwkuPpTQqiLx8YxIXr9DtazMAU7Fs7qzb8/edit#slide=id.g43e9c68cd6_2_13
-+
-https://docs.google.com/presentation/d/1vzFlxM8UAmwkuPpTQqiLx8YxIXr9DtazMAU7Fs7qzb8/edit#slide=id.g6581a0c2ce_1_8
+- [x] **Top Menu Fixed**. en fer scroll, manté la seva posició. Doman el valor `position: fixed` al menu superior.
+- [x] **Top Menu Hide on scroll**. 
+  - Codi original [aqui](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp)
+- [x] **Mega Menu**. Just like a simple top menu, with more areas. Fés-li un cop d'ull [aquí](https://www.w3schools.com/howto/howto_css_mega_menu.asp)
+- [x] **Sub Navigation Menu**. El dropdown desplegat és horitzontal en lloc de vertical. Fés-li un cop d'ull [aquí](https://www.w3schools.com/howto/howto_css_subnav.asp)
+
 
 
 ## Modal (== Pop up)
