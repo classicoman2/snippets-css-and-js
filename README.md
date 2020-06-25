@@ -32,13 +32,15 @@ Basic CSS and JS tricks that sometimes we can not remember exactly how to do.
 
 ### Topnav menu
 
-- [x] _Top Menu simple_: A simple and complete top navigation menu. Missing: inactive links. 
+- [x]**Top Menu simple**. A simple and complete top navigation menu. Missing: inactive links. 
   - Empra &lt;ul&gt; per crear estructura
   - Com crear un Dropdown totsol: [aqui funciona amb _hover_](https://www.w3schools.com/howto/howto_css_dropdown.asp) i [aqui, en clicar a sobre](https://www.w3schools.com/howto/howto_js_dropdown.asp)
   - El mateix exemple amb diferent implementació: [aqui](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp)
-- [x] _Top Menu semiresponsive_: El primer element del menu superior es manté en fer-se responsive
+- [x] **Top Menu semiresponsive**. El primer element del menu superior es manté en fer-se responsive
   - Codi original: [aqui](https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp)
-- [x] _Tom Menu totalresponsive_: Tots els elements s'oculten en fer-se responsiu. Se dedueix fàcilment de l'anterior. **Atenció**: tant aquest com l'anterior menu, si se volen emprar en MÒBIL, s'hauria de modificar el menu per a desplegar-se en clicar, no en navegar per sobre (_hover_)
+- [x] **Tom Menu total responsive**. Tots els elements s'oculten en fer-se responsiu. Se dedueix fàcilment de l'anterior. **Atenció**: tant aquest com l'anterior menu, si se volen emprar en MÒBIL, s'hauria de modificar el menu per a desplegar-se en clicar, no en navegar per sobre (_hover_)
+- [x] **Top Menu mobile**. Per a mòbil. No inclou submenus.
+  - Codi original [aquí](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
 
 Més recursos:
 
