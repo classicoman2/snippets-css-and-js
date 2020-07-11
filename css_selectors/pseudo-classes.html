@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-classes</title>
+  <style>
+    * {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    div {
+      border: 1px black dotted;
+      margin: 5px;
+      width: 300px;
+      padding: 3px 5px;
+    }
+
+    h1,
+    div {
+      cursor: pointer;
+    }
+
+
+    /** Selects the p that are the first child of their parent **/
+    p:first-child {
+      color: red;
+    }
+
+    h2:first-child {
+      color: green;
+    }
+
+    /** Selects the p that are the 2nd child of their parent **/
+    p:nth-child(2) {
+      background-color: palegreen;
+    }
+
+    p:nth-child(3) {
+      background-color: gainsboro;
+    }
+
+    /** Selects the p that are the last child of their parent **/
+    p:last-child {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+
+<body>
+  <main>
+    <div id="box1" class="box">
+      <h2>This is box number 1</h2>
+      <p>This is line <span>number 1</span></p>
+      <p>This is line <span>number 2</span></p>
+    </div>
+
+    <div id="box2" class="box">
+      <p>This is line <span>number 1</span></p>
+      <p>This is line <span>number 2</span></p>
+      <h2>This is box number 2</h2>
+      <p>This is line <span>number 3</span></p>
+    </div>
+
+    <div id="box3" class="box">
+      <p>This is line <span>number 1</span></p>
+      <p>This is line <span>number 2</span></p>
+      <p>This is line <span>number 3</span></p>
+      <h2>This is box number 3</h2>
+    </div>
+
+    <br>
+
+    <p>line 1</p>
+    <div>div 1</div>
+    <p class="liniaespecial">line 2</p>
+    <div>div 2</div>
+    <p>line 3</p>
+    <p>line 4</p>
+    <p class="liniaespecial">line 5</p>
+    <p>line 6</p>
+    <p>line 7</p>
+  </main>
+
+</body>
+
+</html>
