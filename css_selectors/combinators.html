@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        div {
+            border: 1px black dotted;
+            margin: 5px;
+            width: 300px;
+            padding: 3px 5px;
+        }
+
+        /** Grouping selector **/
+        h1,
+        h2 {
+            font-size: 0.9em;
+            color: purple;
+            text-decoration: underline;
+        }
+
+        /** Descendant Combinator **/
+        main p {
+            color: royalblue;
+        }
+
+        main span {
+            font-weight: bolder;
+        }
+
+        /** Child Combinator **/
+        /** The specific selector has preference over the general selector (the one above this one)  **/
+        #box1>p {
+            color: red;
+            background-color: sandybrown;
+        }
+
+        /** It won't work !!! **/
+        #box2>span {
+            color: yellow;
+        }
+
+        /** OK **/
+        #box2>p>span {
+            color: yellow;
+        }
+
+        /** general sibling combinator **/
+        p ~ .liniaespecial {
+            text-decoration: underline;
+            font-weight:bold;
+            margin-left:20px;
+        }
+
+        /** adjacent sibling combinator **/
+        p + .liniaespecial {
+            color:red;
+            margin-left:20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Combinators</h1>
+
+        <div id="box1" class="box">
+            <h2>This is box number 1</h2>
+            <p>This is line <span>number 1</span></p>
+            <p>This is line <span>number 2</span></p>
+        </div>
+
+        <div id="box2" class="box">
+            <h2>This is box number 2</h2>
+            <p>This is line <span>number 1</span></p>
+            <p>This is line <span>number 2</span></p>
+        </div>
+
+        <div id="box3" class="box">
+            <h2>This is box number 2</h2>
+            <p>This is line <span>number 1</span></p>
+            <p>This is line <span>number 2</span></p>
+        </div>
+
+        <br>
+
+        <p>line 1</p>
+        <div>div 1</div>
+        <p class="liniaespecial">line 2</p>
+        <div>div 2</div>
+        <p>line 3</p>
+        <p>line 4</p>
+        <p class="liniaespecial">line 5</p>
+        <p>line 6</p>
+        <p>line 7</p>
+    </main>
+
+</body>
+
+</html>
