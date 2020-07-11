@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How TO - Hoverable Dropdown - pure CSS</title>
+	
+	<style>
+		
+		/*** GENERAL ***/
+		body {
+    	font-family: "Lato", sans-serif;
+		}
+		
+		a {
+			font-family: sans-serif;
+			text-decoration: none;
+		}
+		
+		/*** Main ***/
+		
+		#main {
+			display:block;
+			width:1000px;
+			margin:auto;
+		}
+		
+		#sidebar-menu {
+			width: 25%;
+			float:left;
+		}
+		
+		#right-container {
+			padding:10px;
+			box-sizing: border-box;
+			
+			width:75%;
+			float: left;
+		}
+		
+		
+		/** CATEGORIES **/
+
+		ul.category {
+			list-style-type: none;  /* https://stackoverflow.com/questions/1027354/need-an-unordered-list-without-any-bullets */
+
+			border-top:solid 1px grey;
+			border-bottom:solid 1px grey;
+			
+			overflow: hidden;
+			
+			padding:0;			/* Elimina el padding de les linies de la llista */
+		}
+
+		ul.category > li {
+			display: block;
+			float:left;
+			width:100%;			
+			
+			padding: 15px 10px 15px 10px;
+			box-sizing: border-box;
+			
+			
+			background-color: rgb(84, 49, 117);
+			text-align: center;
+			
+			border-bottom: 1px solid grey;
+		}
+		
+		
+		ul.category > li > a {
+			color:white;			
+		}
+		
+		ul.category > li:hover {
+			cursor:pointer;
+		}
+		
+		ul.category > li:hover a {
+			color:#FF8B00;
+		}
+		
+		/*** RESPONSIVE  ***/
+		
+		@media screen and (max-width: 600px) {
+			
+			#main {
+				width:auto;
+			}
+			#sidebar-menu {
+				width: 100%;
+			}
+
+			#right-container {
+				padding:10px;
+				box-sizing: border-box;
+
+				width:100%;
+				float: left;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div id="main">
+		<div id="sidebar-menu">
+			<ul class="category">
+				<li><a href="#">HTML5</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">Bootstrap</a></li>
+				<li><a href="#">Less</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</div>
+		<div id="right-container">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			
+			<h3>Webgrafia</h3>
+			<ul>
+				<li><a href="https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp">How TO - Fixed Sidebar (W3Schools)</a></li>
+			</ul>
+
+		</div>
+	</div>
+</body>
+</html>

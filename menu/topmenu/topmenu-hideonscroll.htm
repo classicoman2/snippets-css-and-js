@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top menu - hide on scroll</title>
+  <link rel="stylesheet" type="text/css" href="topmenu-hideonscroll.css" />
+
+</head>
+
+<body>
+  <div id="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div id="contents">
+    <p><b>This example demonstrates how to hide a navbar when the user starts to scroll the page.</b></p>
+    <p>Scroll down this frame to see the effect!</p>
+    <p>Scroll up to show the navbar.</p>
+    <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+      laborum.</p>
+    <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+      laborum.</p>
+  </div>
+</body>
+<script>
+
+  var prevScrollpos = window.pageYOffset;
+  /**
+  * Callback que s'executa en detectar un scroll
+  **/
+  window.onscroll = function () {
+    // posició actual de l'scroll
+    var currentScrollPos = window.pageYOffset;
+    let navbar = document.getElementById("navbar")
+    if (prevScrollpos > currentScrollPos) {
+      //Si ha fet scroll down --> MOSTRA EL MENU
+      navbar.style.top = "0"
+    }
+    else {
+      //si ha fet scroll up  --> OCULTA EL MENU
+      navbar.style.top = "-50px"
+    }
+    // intercanvia posicions de scroll
+    prevScrollpos = currentScrollPos;
+  }
+</script>
+
+</html>

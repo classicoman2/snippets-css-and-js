@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+main {
+  background-color: burlywood;
+  display: block;
+  margin: 0;
+}
+
+#topnav {
+  background-color: rgb(84, 49, 117);
+}
+
+#topnav>ul {
+  margin:0;  /* Fem desaparèixer el marge superior que apareix per defecte i enlletgeix la pàgina */
+  list-style-type: none;  /* Fem desaparèixer les "bullets" */
+}
+
+#topnav>ul>li {
+  width: 100px;
+  text-align: center;
+  margin: 2px 6px;
+  border: solid 1px grey;
+  box-sizing: border-box; /* la mesura absoluta inclou el border */
+  display: inline-block;  /* important! */
+  padding: 16px;
+
+}
+
+#topnav>ul>li>a {
+  color: white;
+}
+
+#topnav>ul>li:hover {
+  cursor: pointer;
+}
+
+#topnav>ul>li:hover>a {
+  color: #FF8B00;
+}
+
+/* Desplegament de menu de nivell 2 */
+#topnav>ul>li:hover .level2 {
+  display: block;
+}
+
+ul.level2 {
+  display: none;   /** ocult per defecte */
+  position: absolute;  /*  Referència respecte top menu */
+  background-color: white;
+  margin-top: 19px;
+  /* Veure webgrafia, "Removing ul indent with CSS" */
+  padding: 0px;
+  list-style-type: none;
+  margin-left:-17px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+ul.level2>li {
+  display: block;
+  width: 100px;
+  line-height: 40px;
+  text-align: center;
+}
+
+ul.level2>li a {
+  color: dimgrey;
+}
+
+ul.level2>li:hover {
+  background-color: #FF8B00;
+}
+
+ul.level2>li:hover a {
+  color: white;
+}
+
+#contents {
+  padding: 10px;
+}
