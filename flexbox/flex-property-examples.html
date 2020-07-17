@@ -8,18 +8,26 @@
     <style>
         #container {
             display:flex;
-            width: 500px;
-            background-color: grey;;
+            width: 600px;
+            background-color: grey;
+
+            flex-wrap: wrap;
         }
         .item {
+            /* important ja que l'amplada total de l'item inclou el 
+            border i és més fàcil de gestionar la seva distribució */
+            box-sizing: border-box;
+            
             border: 1px solid black;
             padding: 20px 10px;
 
-            flex: 0 1 50px;
+            /* valor  que se recomana posar per defecte */
+            flex: 0 1 200px;  
         }
 
         .item:nth-child(1) {
-            flex: 0 1 100px;
+            /* flex-grow a soles no s'empra */
+            flex: 1;
         }
     </style>
 </head>
