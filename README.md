@@ -12,7 +12,9 @@ REMEMBER: Always try to improve the code and remove what is unnecessary.
     + [CSS GRID](#css-grid)
   * [INTERACTIVE ELEMENTS](#interactive-elements)
     + [Accordion](#accordion)
+    + [Animated Search Input](#animated-search-input)
     + [Carousel (Slideshow)](#carousel-slideshow)
+    + [Cookies Alert](#cookies-alert)
     + [Jump Buttons](#jump-buttons)
     + [MENUS](#menus)
       - [Topnav](#topnav)
@@ -21,6 +23,7 @@ REMEMBER: Always try to improve the code and remove what is unnecessary.
     + [Modal (Pop Up) Windows](#modal-pop-up-windows)
     + [Overlay](#overlay)
     + [Parallax Effect](#parallax-effect)
+    + [Tabs](#tabs)
 
 
 ## SHORT SNIPPETS !
@@ -43,16 +46,25 @@ REMEMBER: Always try to improve the code and remove what is unnecessary.
 
 ## INTERACTIVE ELEMENTS
 
-
-
 ### Accordion
 
-- [ ] Accordion examples
+- [x] [Basic Accordion example](https://www.w3schools.com/howto/howto_js_accordion.asp)
+
+### Animated Search Input
+
+An Animated Search Input  is a usual resource to add usability to a site
+
+- [x] [How to create a Search bar](https://www.w3schools.com/howto/howto_css_searchbar.asp). I.e: wook.pt, onallibres.cat and casadellibro.com
+- [x] [Basic Animated Search Input](https://www.w3schools.com/howto/howto_css_animated_search.asp)
 
 ### Carousel (Slideshow)
 
 - [ ] Slideshow no automàtic. Fés-li un cop d'ull [aquí](https://www.w3schools.com/howto/howto_js_slideshow.asp)
 - [ ] Slideshow automàtic. En clicar sobre les imatges, rota. Caldria afegir-li uns botons per fer-lo "professional". Codi original [aqui](https://www.freecodecamp.org/news/how-to-create-a-slideshow/ ) i [aquí](https://codepen.io/AndresUris/pen/rGXpvE)
+
+### Cookies Alert
+
+In the majority of websites, a Cookies Policy alert will pop up when you enter its website, [in the top](https://www.bbc.com/) ([also here](https://www.gov.uk/)) or the bottom of the website and can use a transition to close and even [using an overlay with opacity](https://www.mirror.co.uk/) or with a [centered popup](https://www.msn.com/es-es/noticias/)
 
 ### Jump Buttons
 
@@ -88,13 +100,22 @@ REMEMBER: Always try to improve the code and remove what is unnecessary.
 
 ### Modal (Pop Up) Windows
 
-- [ ] Basic Example
+A Pop is a window that appears in top of the contents that’s being displayed in the viewport. It’s limited to a small area and has a limited function (normally a form or a warning)
+
+- [x] [Basic Example](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup_form)
 
 ### Overlay
 
-- [ ] Basic Overlay
+An Overlay it’s an area that appears in top of the contents that’s being displayed in the viewport
+
+- [x] [Full screen overlay effect (with Transition and opacity effect](https://www.w3schools.com/howto/howto_css_overlay.asp)
+- [x] [Full Screen Transition Overlay (with also a Transition on the text of the links)](https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp)
 
 ### Parallax Effect
 
 - [x] Basic parallax with fixed image. La imatge es manté fixa i en fer scroll, el text hi passa per sobre. Codi original [aqui](https://www.w3schools.com/howto/howto_css_parallax.asp)
 - [x] Use a library to implement Parallax effect that add a dynamic feel to your interfaces. For instance: [simplePARALLAX.js](https://simpleparallax.com)
+
+### Tabs
+
+- [x] [Basic Tab example](https://www.w3schools.com/howto/howto_js_tabs.asp)
