@@ -5,6 +5,24 @@ Copy them and modify the code to adapt to your application.
 
 REMEMBER: Always try to improve the code and remove what is unnecessary. 
 
+- [snippets-css-and-js](#snippets-css-and-js)
+  * [SHORT SNIPPETS !](#short-snippets-)
+  * [ADVANCED LAYOUT](#advanced-layout)
+    + [CSS FLEXBOX](#css-flexbox)
+    + [CSS GRID](#css-grid)
+  * [INTERACTIVE ELEMENTS](#interactive-elements)
+    + [Accordion](#accordion)
+    + [Carousel (Slideshow)](#carousel-slideshow)
+    + [Jump Buttons](#jump-buttons)
+    + [MENUS](#menus)
+      - [Topnav](#topnav)
+      - [Sidebar](#sidebar)
+      - [Variations](#variations)
+    + [Modal (Pop Up) Windows](#modal-pop-up-windows)
+    + [Overlay](#overlay)
+    + [Parallax Effect](#parallax-effect)
+
+
 ## SHORT SNIPPETS !
 
 - [x] Including CSS and JS files in an HTML doc
