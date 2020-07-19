@@ -6,10 +6,10 @@ Copy them and modify the code to adapt to your application.
 REMEMBER: Always try to improve the code and remove what is unnecessary. 
 
 - [snippets-css-and-js](#snippets-css-and-js)
-  * [SHORT SNIPPETS !](#short-snippets-)
+  * [Short Snippets !](#short-snippets-)
   * [ADVANCED LAYOUT](#advanced-layout)
-    + [CSS FLEXBOX](#css-flexbox)
-    + [CSS GRID](#css-grid)
+    + [CSS Flexbox](#css-flexbox)
+    + [CSS Grid](#css-grid)
   * [INTERACTIVE ELEMENTS](#interactive-elements)
     + [Accordion](#accordion)
     + [Animated Search Input](#animated-search-input)
@@ -26,18 +26,18 @@ REMEMBER: Always try to improve the code and remove what is unnecessary.
     + [Tabs](#tabs)
 
 
-## SHORT SNIPPETS !
+## Short Snippets
 
 - [x] Including CSS and JS files in an HTML doc
 
 ## ADVANCED LAYOUT
 
 
-### CSS FLEXBOX
+### CSS Flexbox
 
 - [X] Flexbox properties examples
 
-### CSS GRID
+### CSS Grid
 
 - [x] Basic Grid
 - [ ] A basic webpage build using Grid
