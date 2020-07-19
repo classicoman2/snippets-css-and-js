@@ -96,6 +96,7 @@ In the majority of websites, a Cookies Policy alert will pop up when you enter i
 - [x] **Top Menu Hide on scroll**. Codi original [aqui](https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp)
 - [x] **Mega Menu**. Just like a simple top menu, with more areas. Fés-li un cop d'ull [aquí](https://www.w3schools.com/howto/howto_css_mega_menu.asp)
 - [x] **Sub Navigation Menu**. El dropdown desplegat és horitzontal en lloc de vertical. Fés-li un cop d'ull [aquí](https://www.w3schools.com/howto/howto_css_subnav.asp)
+- [x] **Full Screen Overlay Navigation***. El menú es desplega a tota pàgina, amb una _CSS transition_: [aqui](Full screen Overlay Navigation)
 
 
 ### Modal (Pop Up) Windows
