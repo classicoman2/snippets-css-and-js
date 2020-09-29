@@ -21,6 +21,7 @@ var createInFile = (myArgs[3] === "true") ? true : false;
 var fitxer = fs.readFile(filename, 'utf8', function(err, data) {
 
   //Create the table of contents
+  console.log("This is the index \n")
   var text = toc(data).content;
   console.log(text);
   
