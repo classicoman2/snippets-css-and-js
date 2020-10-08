@@ -4,6 +4,9 @@
     margin-bottom: 20px;;
 }
 
+.container > div {
+    padding: 20px 5px;
+}
 
 /*
 Flex-grow tells our element whether or not it can take up additional space.
