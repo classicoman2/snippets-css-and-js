@@ -1,0 +1,73 @@
+.container {
+    background-color: grey;
+    margin-bottom: 20px;
+
+    display:flex;
+    flex-wrap: nowrap;
+}
+.container>div {
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+
+/*
+Flex-shrink tells our element whether or not it has to shrink.
+
+Flex-basis allows us to establish a base size for our items.
+
+USE flex property always --> it's easier to establish the dimensions of your elements. 
+
+Start with  flex: 1 1 auto;   or change auto by a fixed size  --> and change the 1st and 2nd values to figure out your layout. 
+
+*/
+
+#container_1 div:first-child {
+    background-color:yellow;
+    flex: 1 1 auto;
+}
+
+#container_1 div:nth-child(2) {
+    background-color:lightcoral;
+    flex: 1 1 auto;
+}
+
+
+
+#container_2 div:first-child {
+    flex: 1 1 auto;
+}
+#container_2 div:nth-child(2) {
+    flex: 1 1 auto;
+}
+#container_2 div:nth-child(3) {
+    flex: 1 1 auto;
+}
+#container_2 div:nth-child(4) {
+    flex: 1 1 auto;
+}
+#container_2 div:nth-child(5) {
+    flex: 1 1 auto;
+}
+
+
+#container_3 {
+    flex-wrap: wrap;
+}
+
+#container_3 div:first-child {
+    flex: 1 1 200px;
+}
+#container_3 div:nth-child(2) {
+    flex: 1 1 200px;
+}
+#container_3 div:nth-child(3) {
+    flex: 1 1 200px;
+}
+#container_3 div:nth-child(4) {
+    flex: 1 1 200px;
+}
+#container_3 div:nth-child(5) {
+    flex: 1 1 200px;
+}
