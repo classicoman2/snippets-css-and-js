@@ -36,7 +36,7 @@
 
         /** Child Combinator **/
         /** The specific selector has preference over the general selector (the one above this one)  **/
-        #box1 > p {
+        #box1>p {
             color: red;
             background-color: sandybrown;
         }
@@ -53,15 +53,15 @@
 
         /** general sibling combinator **/
         /** spans que son "germans", immediats o no, d'algun p **/
-        p ~ span {
+        p~span {
             text-decoration: underline;
             font-weight: bold;
-            color:green;
+            color: green;
         }
 
         /** adjacent sibling combinator **/
         /* p que son immediatament consecutiu (posterior, no anterior) a algun p de classe liniaespecial */
-        p.liniaespecial + p {
+        p.liniaespecial+p {
             color: magenta;
         }
     </style>
