@@ -55,7 +55,7 @@ section {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 20px;
-  text-align: center;
+  text-align: center; 
 }
 
 .capsa1 {
@@ -92,6 +92,7 @@ section {
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
 
 .capsa6 {
   grid-row-start: 3;
