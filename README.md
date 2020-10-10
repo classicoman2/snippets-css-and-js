@@ -1,7 +1,7 @@
 # snippets-css-and-js
 
 Snippets of CSS and JS for the classes of the DAW module _Design of Web Interfaces_. Copy them and modify the code to adapt to your application.
-Remember always try to improve your code and remove what is unnecessary (certainly you can improve these snippets too!)
+Remember always try to improve your code and remove what is unnecessary (certainly you can improve these snippets too!!)
 
 ![logo](./logo-classicoman-optim.png)
 
