@@ -53,18 +53,16 @@
 
         /** general sibling combinator **/
         /** spans que son "germans", immediats o no, d'algun p **/
-        p ~ span {
+        p~span {
             text-decoration: underline;
             font-weight: bold;
-            margin-left: 16px;
-            color:green;
+            color: green;
         }
 
         /** adjacent sibling combinator **/
         /* p que son immediatament consecutiu (posterior, no anterior) a algun p de classe liniaespecial */
-        p.liniaespecial + p {
-            color: red;
-            margin-left: 20px;
+        p.liniaespecial+p {
+            color: magenta;
         }
     </style>
 </head>
