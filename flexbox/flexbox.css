@@ -1,0 +1,36 @@
+.contenidor {
+  background: lightgray;
+
+  height: 600px;
+  width: 500px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+}
+
+.item {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+
+  padding: 10px 20px;
+  margin: 2px;
+
+}
+
+.item1 {
+    flex-grow: 1;
+}
+
+
+
+
+.explanation{
+    border: 1px solid blue;
+    margin:2px;
+}
