@@ -1,9 +1,0 @@
-#div1 {
-    background-image: url("../images/captura.png");
-    height: 300px;
-    width: 300px;
-}
-
-#div1, #div2>p>span {
-    color:red;
-}
