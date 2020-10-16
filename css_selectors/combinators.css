@@ -28,7 +28,7 @@ main span {
 
 /** Child Combinator **/
 /** The specific selector has preference over the general selector (the one above this one)  **/
-#box1>p {
+#box1 > p {
     color: red;
     background-color: sandybrown;
 }
@@ -39,13 +39,13 @@ main span {
 }
 
 /** OK **/
-#box2>p>span {
+div#box2 > p > span {
     color: yellow;
 }
 
 /** general sibling combinator **/
 /** spans que son "germans", immediats o no, d'algun p **/
-p~span {
+p ~ span {
     text-decoration: underline;
     font-weight: bold;
     color: green;
