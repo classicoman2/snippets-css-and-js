@@ -12,14 +12,15 @@
     <main>
       <!-- EXEMPLE 1 -->
       <section>
-        <h1>Example 1</h1>
+        <h1>Example 1. Auto width</h1>
         <p>
-          A very basic example. Every column and row has 'auto' width. The grid
-          is fluid
+          A very basic example. Every column and row has
+          <strong>auto</strong> width. The grid is fluid
         </p>
         <p>
-          Trick: The number of rows and columns are defined using the properties
-          'grid-template-rows' and 'grid-template-columns'
+          The number of rows and columns are defined using the properties
+          <strong>grid-template-rows</strong> and
+          <strong>grid-template-columns</strong>
         </p>
         <p></p>
         <div class="grid-container1">
@@ -35,11 +36,12 @@
 
       <!-- EXEMPLE 2 -->
       <section>
-        <h1>Example 2</h1>
+        <h1>Example 2. Fixed Width, gaps between rows and cols</h1>
         <p>
           Every column and row has a fixed width. The grid is not fluid when
           fixed dimensions are used. A gap has been defined between rows and
-          columns.
+          cols with <strong> grid-column-gap</strong> and
+          <strong> grid-row-gap</strong>
         </p>
         <p></p>
         <div class="grid-container2">
@@ -49,25 +51,23 @@
           <div class="grid-item">4</div>
           <div class="grid-item">5</div>
           <div class="grid-item">6</div>
-          <div class="grid-item">7</div>
         </div>
       </section>
 
       <!-- EXEMPLE 3 -->
       <section>
-        <h1>Example 3</h1>
+        <h1>Example 3. fr and placing the items in the grid</h1>
         <p>
-          Every column and row width has been established using 'fr'. The Grid
-          is fluid
+          Every column and row width has been established using
+          <strong>fr</strong>, every fr is a fraction of the total available
+          space. The Grid is fluid
         </p>
         <p>
           Every <strong>item</strong> has been put in the grid using the
-          properties 'grid-row-start', 'grid-row-end', 'grid-column-start' and ':
-          'grid-column-end'
+          properties <strong>grid-row</strong> and <strong>grid-column</strong>.
         </p>
         <p>
-          We can combine the grid layout with CSS properties like max-width,
-          etc..
+          We can combine the grid layout with responsive properties like <strong>max-width</strong>
         </p>
         <div class="grid-container3">
           <div class="capsa capsa1">1</div>
@@ -75,8 +75,6 @@
           <div class="capsa capsa3">3</div>
           <div class="capsa capsa4">4</div>
           <div class="capsa capsa5">5</div>
-          <div class="capsa capsa6">6</div>
-          <div class="capsa capsa7">7</div>
         </div>
       </section>
 
