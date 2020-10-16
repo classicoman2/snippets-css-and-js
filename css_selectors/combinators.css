@@ -1,0 +1,58 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+div {
+    border: 1px black dotted;
+    margin: 5px;
+    width: 300px;
+    padding: 3px 5px;
+}
+
+/** Grouping selector **/
+h1,
+h2 {
+    font-size: 0.9em;
+    color: purple;
+    text-decoration: underline;
+}
+
+/** Descendant Combinator **/
+main p {
+    color: royalblue;
+}
+
+main span {
+    font-weight: bolder;
+}
+
+/** Child Combinator **/
+/** The specific selector has preference over the general selector (the one above this one)  **/
+#box1>p {
+    color: red;
+    background-color: sandybrown;
+}
+
+/** It won't work !!! **/
+#box2>span {
+  color: yellow;
+}
+
+/** OK **/
+#box2>p>span {
+    color: yellow;
+}
+
+/** general sibling combinator **/
+/** spans que son "germans", immediats o no, d'algun p **/
+p~span {
+    text-decoration: underline;
+    font-weight: bold;
+    color: green;
+}
+
+/** adjacent sibling combinator **/
+/* p que son immediatament consecutiu (posterior, no anterior) a algun p de classe liniaespecial */
+p.liniaespecial + p {
+    color: magenta;
+}
