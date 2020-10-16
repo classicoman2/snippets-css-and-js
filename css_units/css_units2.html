@@ -3,61 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Css Units - examples</title>
+    <title>vw, wh, vmin, vmax</title>
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css_units.css" />
     <style>
       /** vw  **/
       #div_vw {
-        height: 200px;
         background-color: chartreuse;
 
         width: 90vw;
-        font-size: 2vw;
+        font-size: 3vw;
       }
 
       /** vh  **/
       #div_vh {
-        width: 500px;
         background-color: cadetblue;
 
         height: 50vh;
-      }
-
-      /** vmax  **/
-      #div_vmax {
-        background-color: chocolate;
-        height: 100px;
-
-        width: 50vmax;
+        font-size: 4vh;
       }
 
       /** vmin  **/
       #div_vmin {
-        background-color: blue;
-        height: 100px;
+        background-color: chocolate;
 
-        width: 50vmin;
+        width: 90vmin;
+        font-size: 3vmin;
+      }
+
+      /** vmax  **/
+      #div_vmax {
+        background-color: blue;
+
+        width: 90vmax;
+        font-size: 3vmax;
       }
     </style>
   </head>
 
   <body>
-    <div id="div_vh">
-      <p>
-        <strong>width: 90vh</strong> means that the width of the container is
-        always the 90% of the viewport size
-      </p>
-    </div>
-
     <div id="div_vw">
       <p>
-        <strong>width: 90vh</strong> means that the width of the container is
-        always the 90% of the viewport size
+        <strong>width: 90vw</strong>: the width of the container is always 90%
+        of the viewport width
+      </p>
+      <p>
+        <strong>font-size: 3vw</strong>: the font-size is always 3% of the
+        viewport width
       </p>
     </div>
 
-    <div id="div_vmax">width: 50vmax</div>
-    <div id="div_vmin">width: 50vmin</div>
+    <div id="div_vh">
+      <p>
+        <strong>width: 50vh</strong>: the height of the container is always 50%
+        of the viewport height
+      </p>
+      <p>
+        <strong>font-size: 4vh</strong>: the font-size is 4% of the container's
+        width
+      </p>
+    </div>
+
+    <div id="div_vmin">
+      <p>
+        <strong>width: 90vmin</strong>: the width of the container is always 90%
+        of the viewport's MINIMUM value between width and height
+      </p>
+      <p>
+        <strong>font-size: 3vmin</strong>: the font-size is always 3% of the
+        viewport width
+      </p>
+    </div>
+
+    <div id="div_vmax">
+      <p>
+        <strong>width: 90vmax</strong>: the width of the container is always 90%
+        of the viewport's MAXIMUM value between width and height
+      </p>
+      <p>
+        <strong>font-size: 3vmax</strong>: the font-size is always 3% of the
+        viewport width
+      </p>
+    </div>
   </body>
 </html>
