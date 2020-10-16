@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css Units - examples</title>
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css_units.css" />
+    <style>
+      /**  px  **/
+      * {
+        font-size: 25px;
+      }
 
-</head>
+      main,
+      div {
+        padding: 10px 15px;
+      }
 
-<body>
+      /**  px  **/
+      main {
+        background-color: aquamarine;
+        font-size: 20px;
+      }
 
-    <p id="p1">p1 has Font size: 15px (same as the root element, established using the * selector )</p>
+      /**  em  **/
+      #div1 {
+        background-color: aqua;
+        font-size: 2em;
+      }
+
+      /**  rem  **/
+      #div2 {
+        background-color: cadetblue;
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p id="p1">
+      p1 has Font size: 15px (same as the root element, established using the *
+      selector )
+    </p>
 
     <main>
-        main has font size = 20px
-        <div id="div1">div1 has font-size 2em = 40px (2 x the font-size inherited by the element)</div>
-        <div id="div2">div2 has font-size 2rem = 30px (2 x the font-size of the root element, established using the * selector ) </div>
+      main has font size = 20px
+      <div id="div1">
+        div1 has font-size 2em = 40px (2 x the font-size inherited by the
+        element)
+      </div>
+      <div id="div2">
+        div2 has font-size 2rem = 30px (2 x the font-size of the root element,
+        established using the * selector )
+      </div>
     </main>
-
-</body>
-
-
-
+  </body>
 </html>
