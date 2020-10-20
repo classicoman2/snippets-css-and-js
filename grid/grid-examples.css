@@ -101,3 +101,36 @@ section {
   justify-content: space-evenly;
   align-items: center;
 }
+
+.grid-container5 {
+  background-color: lawngreen;
+  padding: 2px;
+  height: 200px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 2px;
+
+  grid-template-areas: "header header header header"
+  "main main main aside"
+  "main main main aside"
+  "footer footer footer footer";
+}
+
+.box1 {
+  grid-area: header;
+}
+.box2 {
+  grid-area: main;
+}
+.box3 {
+  grid-area: aside;
+}
+.box4 {
+  grid-row: 5/6;
+  grid-column: 1 / 5;
+}
+.box5 {
+  grid-area: footer;
+}
