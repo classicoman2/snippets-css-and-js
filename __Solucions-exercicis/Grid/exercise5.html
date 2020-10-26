@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 5 - z-index</title>
+    <style>
+      body {
+        margin: 40px;
+      }
+
+      .wrapper {
+        background-color: #fff;
+        color: #444;
+        /***** ADD YOUR CODE HERE *****/
+        display: grid;
+        grid-gap: 0.5px;
+
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 200px 200px;
+        /*****  END OF YOUR CODE  *****/
+      }
+
+      .box {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 200%;
+      }
+
+      .i {
+        background-color: rgba(49, 121, 207, 0.5);
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box;
+
+        /***** ADD YOUR CODE HERE *****/
+        grid-area: 1/1/3/2;
+
+        z-index: 20;
+
+        margin-top: 100.5px;
+        margin-left: 100.5px;
+        /*****  END OF YOUR CODE  *****/
+      }
+
+      /***** ADD YOUR CODE HERE *****/
+
+      .a {
+        grid-area: 1/1/2/2;
+      }
+
+      .b {
+        grid-area: 1/2/2/3;
+      }
+
+      .c {
+        grid-area: 2/1/3/2;
+      }
+
+      .d {
+        grid-area: 2/2/3/3;
+      }
+
+     
+
+      /*****  END OF YOUR CODE  *****/
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="box a">A</div>
+      <div class="box b">B</div>
+      <div class="box c">C</div>
+      <div class="box d">D</div>
+
+      <div class="box i">I</div>
+    </div>
+  </body>
+</html>
