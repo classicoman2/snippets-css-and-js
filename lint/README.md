@@ -12,7 +12,7 @@ Emprant Stylelint per fer lint del nostre codi CSS.
 
 Use npm to install stylelint and its standard configuration:
 
-   npm install --save-dev stylelint stylelint-config-standard
+    npm install --save-dev stylelint stylelint-config-standard
 
 Create a .stylelintrc.json configuration file in the root of your project:
 
