@@ -1,4 +1,6 @@
+# STYLELINT
 
+## Docs
 
 https://www.npmjs.com/package/stylelint
 
@@ -6,7 +8,7 @@ https://github.com/stylelint/stylelint
 
 https://stylelint.io/user-guide/get-started
 
-### Usage
+## Usage
 
 Use npm to install stylelint and its standard configuration:
 
@@ -23,3 +25,7 @@ Run stylelint on, for example, all the CSS files in your project:
 
 `
 npx stylelint "**/*.css"`
+
+## Extensió VSCODE
+
+També és possible instal·lar una extensió STYLELINT en el Visual Studio Code.
