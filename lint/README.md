@@ -1,5 +1,7 @@
 # STYLELINT
 
+Emprant Stylelint per fer lint del nostre codi CSS.
+
 ## Docs
 
 - https://www.npmjs.com/package/stylelint
@@ -14,9 +16,9 @@ Use npm to install stylelint and its standard configuration:
 
 Create a .stylelintrc.json configuration file in the root of your project:
 
-   {
-     "extends": "stylelint-config-standard"
-   }
+    {
+      "extends": "stylelint-config-standard"
+    }
 
 
 Run stylelint on, for example, all the CSS files in your project:
