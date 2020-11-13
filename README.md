@@ -3,9 +3,7 @@
 Snippets of CSS and JS for the classes of the DAW module _Design of Web Interfaces_. Copy them and modify the code to adapt to your application.
 Remember always try to improve your code and remove what is unnecessary (certainly you can improve these snippets too!!)
 
-![logo](./logo-classicoman-optim.png)
-
-Atenció! Aquest repositori es troba en permanent actualització. 
+:warning: Aquest repositori es troba en permanent actualització. 
 
 ## Short Snippets
 
@@ -95,3 +93,6 @@ Parallax is the apparent displacement of a object because there's movement in th
 ### Tabs
 
 - [x] [Basic Tab example](https://www.w3schools.com/howto/howto_js_tabs.asp)
+
+
+![logo](./logo-classicoman-optim.png)
