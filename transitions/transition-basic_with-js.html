@@ -5,19 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic Transition with JS</title>
     <style>
-      .object1 {
+      .classe1 {
         background-color: brown;
         color: white;
         height: 100px;
         width: 100px;
-      }
 
-      .object2 {
-        background-color: brown;
-        color: white;
-        height: 100px;
-        width: 800px;
-        /** new value **/
         line-height: 90px;
         text-align: center;
 
@@ -27,17 +20,22 @@
         transition-timing-function: linear;
         transition-delay: 1s;
       }
+
+      .classe2 {
+        /** new value **/
+        width: 500px;
+      }
     </style>
   </head>
 
   <body>
-    <div id="object" class="object1">
+    <div id="object" class="classe1">
       Clica a sobre per iniciar la transició
     </div>
   </body>
   <script>
     document.getElementById("object").onclick = function () {
-      document.getElementById("object").className = "object2";
+      document.getElementById("object").classList.add("classe2")
     };
   </script>
 </html>
