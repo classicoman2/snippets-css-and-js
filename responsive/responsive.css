@@ -1,0 +1,18 @@
+div#contenedor {
+  max-width: 800px;
+  background-color: lightskyblue;
+  height: 400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) and (min-width: 450px) {
+  div#contenedor {
+    background-color: lightcoral;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div#contenedor {
+    background-color: blueviolet;
+  }
+}
