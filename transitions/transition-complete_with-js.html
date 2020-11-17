@@ -1,50 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Complete Transition with JS</title>
     <style>
-        .object1 {
-            background-color: brown;
-            color: white;
-            height: 100px;
-            width: 100px;
-        }
+      .object1 {
+        background-color: brown;
+        color: white;
+        height: 100px;
+        width: 100px;
+      }
 
-        .object2 {
-            transition-property: height width font-size background-color color margin-left transform;
-            transition-duration: 3s;
-            transition-timing-function: linear;
-            transition-delay: 0.2s;
+      .object2 {
+        transition-property: height width font-size background-color color
+          margin-left transform;
+        transition-duration: 3s;
+        transition-timing-function: linear;
+        transition-delay: 0.2s;
 
-            height: 200px;
-            width: 200px;
-            font-size: 2em;
-            color: pink;
-            background-color: yellow;
-            margin-left: 300px;
+        height: 200px;
+        width: 200px;
+        font-size: 2em;
+        color: red;
+        background-color: yellow;
+        margin-left: 300px;
 
-            transform: rotate(90deg);
-            /* no space between rotate and ( */
-        }
+        transform: rotate(90deg);
+        /* no space between rotate and ( */
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="object" class="object1">
-        Object
+      Clica a sobre per iniciar la transició
     </div>
-</body>
-<script>
+  </body>
+  <script>
     document.getElementById("object").onclick = function () {
-        let objecte = document.getElementById("object")
-        if (objecte.className == "object1")
-            document.getElementById("object").className = "object2"
-        else
-            document.getElementById("object").className = "object1"
-    }
-</script>
-
+      let objecte = document.getElementById("object");
+      if (objecte.className == "object1")
+        document.getElementById("object").className = "object2";
+      else document.getElementById("object").className = "object1";
+    };
+  </script>
 </html>

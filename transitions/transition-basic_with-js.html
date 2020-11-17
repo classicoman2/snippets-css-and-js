@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Transition with JS</title>
+    <style>
+      .object1 {
+        background-color: brown;
+        color: white;
+        height: 100px;
+        width: 100px;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basic Transition with JS</title>
-  <style>
-    .object1 {
-      background-color: brown;
-      color: white;
-      height: 100px;
-      width: 100px;
-    }
+      .object2 {
+        background-color: brown;
+        color: white;
+        height: 100px;
+        width: 800px;
+        /** new value **/
+        line-height: 90px;
+        text-align: center;
 
-    .object2 {
-      background-color: brown;
-      color: white;
-      height: 100px;
-      width: 800px;
-      /** new value **/
-      line-height: 90px;
-      text-align: center;
+        transition-property: width;
+        /* all   is also valid */
+        transition-duration: 3s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+      }
+    </style>
+  </head>
 
-      transition-property: width;
-      /* all   is also valid */
-      transition-duration: 3s;
-      transition-timing-function: linear;
-      transition-delay: 1s;
-    }
-  </style>
-</head>
-
-<body>
-  <div id="object" class="object1">
-    Object
-  </div>
-</body>
-<script>
-  document.getElementById("object").onclick = function () {
-    document.getElementById("object").className = "object2"
-  }
-</script>
-
+  <body>
+    <div id="object" class="object1">
+      Clica a sobre per iniciar la transició
+    </div>
+  </body>
+  <script>
+    document.getElementById("object").onclick = function () {
+      document.getElementById("object").className = "object2";
+    };
+  </script>
 </html>
