@@ -10,12 +10,10 @@
         color: white;
         height: 100px;
         width: 100px;
-
         line-height: 90px;
         text-align: center;
 
         transition-property: width;
-        /* all   is also valid */
         transition-duration: 3s;
         transition-timing-function: linear;
         transition-delay: 1s;
@@ -36,6 +34,9 @@
   <script>
     document.getElementById("object").onclick = function () {
       document.getElementById("object").classList.add("classe2")
+
+      // Aixo també seria vàlid
+      /* document.getElementById("object").style.width = "500px"; */
     };
   </script>
 </html>
