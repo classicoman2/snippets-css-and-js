@@ -1,0 +1,184 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+body > div,
+body > nav,
+header,
+footer {
+  border-bottom: 2px black dotted;
+}
+
+/* EXERCISE 1 */
+
+#ex1 {
+  height: 120px;
+  background-color: #210439;
+  color: white;
+  background-image: url(imatges/logo.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#ex1 span {
+  padding-left: 40px;
+}
+
+#ex1 > div {
+  position: absolute;
+  margin-left: 500px;
+}
+
+#ex1 > .tag {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* EXERCISE 1.2 */
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+nav ul li {
+  float: left;
+  padding: 10px 20px;
+  background-color: #9376ac;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  border-right: 1px white solid;
+}
+
+/* EXERCISE 2 */
+
+#ex2 {
+  background-image: url(imatges/pattern.jpg);
+  height: 100px;
+}
+
+/* EXERCISE 3 */
+
+#ex3 {
+  height: 300px;
+  overflow: hidden;
+}
+
+#ex3 > img {
+  width: 1000px;
+  margin-top: -135px;
+}
+
+/* EXERCISE 4 */
+
+#ex4 {
+  background-color: gainsboro;
+  height: 250px;
+  padding: 25px 0 25px 0;
+  text-align: center;
+}
+
+#ex4 h2 {
+  text-decoration: underline;
+}
+
+#ex4 table {
+  margin-left: 25%;
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: gray;
+}
+
+tr:first-child {
+  border-bottom: 5px solid black;
+  background-color: #704c8f;
+}
+
+/* EXERCISE 5 */
+
+#ex5 {
+  height: 300px;
+  text-align: center;
+  /* fonamental per a quadrar-ho tot */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#ex5 div {
+  float: left;
+  width: 250px;
+  padding-top: 10px;
+  border-right: 1px solid black;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#ex5 div:first-child {
+  border-left: 1px solid black;
+}
+
+#ex5 img {
+  width: 240px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+#ex5 span {
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/********** EXERCISE 6 **********/
+
+#ex6 {
+  background-color: #210439;
+  color: white;
+  height: 100px;
+  position: relative;
+  padding: 10px;
+}
+
+#ex6 span #footer-left {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+#ex6 #footer-right {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
