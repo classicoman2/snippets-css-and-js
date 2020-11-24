@@ -1,8 +1,8 @@
 # STYLELINT
 
-Un [linter](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it) és una eina que detecta errors i ens ajuda a evitar aquests errors en els futurs (ens ensenya a escriure el codi bé).
+La definició de [linter](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it) és una eina que detecta errors i ens ajuda a prevenir-los (ens ensenya a escriure el codi bé).
 
-Aquí veurem una eina que ens permetrà repassar el nostre codi per detectar mancances, inconsistències i errors:  **Stylelint**
+En el cas de CSS, un linter ens permet _refactoritzar_ el nostre codi detectar mancances i inconsistències. Anem a veure una d'aquestes eines:  [**Stylelint**](https://stylelint.io)
 
 ## Webgraphy
 
@@ -10,22 +10,22 @@ Aquí veurem una eina que ens permetrà repassar el nostre codi per detectar man
 - https://github.com/stylelint/stylelint
 - https://stylelint.io/user-guide/get-started
 
-## Usage
+## Com emprar-ho
 
-Use npm to install stylelint and its standard configuration:
+Amb `npm`, instal·la stylelint amb configuració estàndard.
 
     npm install --save-dev stylelint stylelint-config-standard
 
-Create a .stylelintrc.json configuration file in the root of your project:
+Crea un fitxer de configuració `.stylelintrc.json` en el directori root del teu projecte amb aquest contingut:
 
     {
       "extends": "stylelint-config-standard"
     }
 
-Run stylelint on, for example, all the CSS files in your project:
+Executa stylelint a tots els fitxers CSS del teu projecte amb aquesta comanda:
 
     npx stylelint "**/*.css"
 
 ## Extensió VSCODE
 
-Aconsellable instal·lar també l'extensió STYLELINT en el Visual Studio Code, que subratlla incidències (com W3C Validator)
+Aconsellable instal·lar també l'extensió STYLELINT en el Visual Studio Code, que subratlla incidències (com W3C Validator) i fa innecessari executar la comanda anterior.
