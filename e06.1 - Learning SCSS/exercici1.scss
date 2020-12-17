@@ -1,0 +1,65 @@
+/** MODULE: NO INSERTA EL SCSS, PERÒ PUC FER US DE LES SEVES VARIABLES, MIXINS I EXTENDS **/
+@import 'modul';
+
+/** PARTIAL:  INSERTA EL SCSS AQUI **/
+@import 'parcial';
+
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+/***** (1) VARIABLES *****/
+$background-color-contenedor: green;
+$background-color-subcontenedor: blue;
+$height: 500px;
+$width: 400px;
+$margin: 50px;
+
+.contenedor {
+  background-color: $primary-color;
+  border: red solid 2px;
+  height: $height;
+  width: $width;
+
+  position: relative;
+}
+
+.subcontenedor {
+  height: $height - 2 * $margin;
+  width: $width - 2 * $margin;
+  top: $margin;
+  left: $margin;
+  background-color: $background-color-subcontenedor;
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+/***** (2) NESTING *****/
+
+.contenedor {
+  .subcontenedor {
+    div {
+      height: $height/5;
+      width: $width/5;
+      margin: 3px;
+      background-color: red;
+    }
+
+    div:nth-child(odd) span {
+      @include transform(rotate(30deg));
+      color: aquamarine;
+    }
+    div:nth-child(even) span {
+      @include transform(rotate(60deg));
+      color: grey;
+    }
+  }
+}
