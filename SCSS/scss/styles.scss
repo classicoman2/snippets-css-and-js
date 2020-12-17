@@ -1,0 +1,33 @@
+/** MODULE: NO INSERTA EL SCSS, PERÒ PUC FER US DE LES SEVES VARIABLES, MIXINS I EXTENDS **/
+@import "modul";
+
+/** PARTIAL:  INSERTA EL SCSS AQUI **/
+@import "parcial";
+
+/*** MIXIN ***/
+
+@mixin coloreja_i_subratlla($color, $estil) {
+  color: $color;
+  text-decoration: $estil;
+}
+
+/*** (1) VARIABLES ***/
+
+$color1: green;
+$color2: blue;
+$valor: 500px;
+
+/*** NESTING ***/
+/*** MIXIN, OPERACIONS  ***/
+
+.contenidor {
+  background-color: $secondary-color;
+  border: red solid 2px;
+  height: $valor/2;
+  width: $valor;
+  div {
+    font-size: 2rem;
+    padding: $valor/40 + 3;
+    @include coloreja_i_subratlla(white, underline);
+  }
+}

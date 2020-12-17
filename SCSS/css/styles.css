@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/** MODULE: NO INSERTA EL SCSS, PERÒ PUC FER US DE LES SEVES VARIABLES, MIXINS I EXTENDS **/
+/** PARTIAL:  INSERTA EL SCSS AQUI **/
+body {
+  background-color: yellow; }
+
+/*** MIXIN ***/
+/*** (1) VARIABLES ***/
+/*** NESTING ***/
+/*** MIXIN, OPERACIONS  ***/
+.contenidor {
+  background-color: grey;
+  border: red solid 2px;
+  height: 250px;
+  width: 500px; }
+  .contenidor div {
+    font-size: 2rem;
+    padding: 15.5px;
+    color: white;
+    text-decoration: underline; }
+
+/*# sourceMappingURL=styles.css.map */
