@@ -1,4 +1,11 @@
 header {
-    background-color: lightcoral;
+    background-color: red;
+    border: 5px solid blue;
     height: 200px;
+    color: magenta;
   }
+
+footer {
+  background-color: yellow;
+  padding: 20px;
+}

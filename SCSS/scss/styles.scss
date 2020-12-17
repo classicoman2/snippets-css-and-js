@@ -11,6 +11,12 @@
   text-decoration: $estil;
 }
 
+/** EXTEND **/ 
+%display-flex {
+  display: flex;
+  flex-direction: row;
+}
+
 /*** (1) VARIABLES ***/
 
 $color1: green;
@@ -21,13 +27,20 @@ $valor: 500px;
 /*** MIXIN, OPERACIONS  ***/
 
 .contenidor {
+
+  @extend %display-flex;
+
   background-color: $secondary-color;
   border: red solid 2px;
   height: $valor/2;
   width: $valor;
-  div {
+  &> div {
     font-size: 2rem;
     padding: $valor/40 + 3;
-    @include coloreja_i_subratlla(white, underline);
+    @include coloreja_i_subratlla(green, underline);
+
+    span {
+      font-size: 2em;
+    }
   }
 }
