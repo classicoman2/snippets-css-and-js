@@ -2,13 +2,15 @@
 /** MODULE: NO INSERTA EL SCSS, PERÒ PUC FER US DE LES SEVES VARIABLES, MIXINS I EXTENDS **/
 /** PARTIAL:  INSERTA EL SCSS AQUI **/
 body {
-  background-color: grey; }
+  background-color: grey;
+}
 
 /*** MIXIN ***/
 /** EXTEND **/
 .contenidor {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 /*** (1) VARIABLES ***/
 /*** NESTING ***/
@@ -17,15 +19,18 @@ body {
   background-color: blue;
   border: purple solid 5px;
   height: 480px;
-  width: 320px; }
-  .contenidor > div {
-    font-size: 1.5rem;
-    padding: 15px;
-    color: white;
-    text-decoration: underline; }
-    .contenidor > div span {
-      font-size: 2em;
-      background-color: green;
-      padding: 5px 10px; }
+  width: 320px;
+}
+.contenidor .item {
+  font-size: 1.5rem;
+  padding: 15px;
+  color: white;
+  text-decoration: underline;
+}
+.contenidor .item span {
+  font-size: 2em;
+  background-color: purple;
+  padding: 5px 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */

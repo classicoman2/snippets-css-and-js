@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": ";AAAA,4FAA4F;AAG5F,sCAAsC;ACFtC,IAAK;EACH,gBAAgB,ECDF,IAAI;;AFKpB,eAAe;AAOf,cAAc;AACd,WAAc;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;;AAGxB,uBAAuB;AAMvB,iBAAiB;AACjB,4BAA4B;AAE5B,WAAY;EAIV,gBAAgB,EE9BA,IAAI;EF+BpB,MAAM,EAAE,gBAAiC;EACzC,MAAM,EAAE,KAAU;EAClB,KAAK,EAAE,KAAU;EACjB,iBAAO;IACL,SAAS,EAAE,MAAM;IACjB,OAAO,EAAE,IAAa;IA7BxB,KAAK,EAYE,KAAK;IAXZ,eAAe,EA6B0B,SAAS;IAEhD,sBAAK;MACH,SAAS,EAAE,GAAG;MACd,gBAAgB,EArBb,KAAK;MAsBR,OAAO,EAAE,QAAQ",
-"sources": ["../scss/styles.scss","../scss/_parcial.scss","../scss/modul.scss"],
-"names": [],
-"file": "styles.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/styles.scss","../scss/_parcial.scss","../scss/modul.scss"],"names":[],"mappings":";AAAA;AAGA;ACFA;EACE,kBCDc;;;AFKhB;AAOA;AACA;EACE;EACA;;;AAGF;AAMA;AACA;AAEA;EAGE,kBE7BgB;EF8BhB;EACA;EACA;;AACA;EACE;EACA;EA5BF,OAYO;EAXP,iBA4ByC;;AAEvC;EACE;EACA,kBApBG;EAqBH","file":"styles.css"}

@@ -11,7 +11,7 @@
   text-decoration: $estil;
 }
 
-/** EXTEND **/ 
+/** EXTEND **/
 %display-flex {
   display: flex;
   flex-direction: column;
@@ -20,21 +20,20 @@
 /*** (1) VARIABLES ***/
 
 $color1: white;
-$color2: green;
+$color2: purple;
 $valor: 400px;
 
 /*** NESTING ***/
 /*** MIXIN, OPERACIONS  ***/
 
 .contenidor {
-
   @extend %display-flex;
 
   background-color: $secondary-color;
   border: $color_border solid $gruix_border;
-  height: $valor*1.2;
-  width: $valor*0.8;
-  &> div {
+  height: $valor * 1.2;
+  width: $valor * 0.8;
+  .item {
     font-size: 1.5rem;
     padding: $valor/40 + 5;
     @include coloreja_i_subratlla($color1, underline);
