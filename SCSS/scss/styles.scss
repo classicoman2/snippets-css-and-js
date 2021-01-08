@@ -14,14 +14,14 @@
 /** EXTEND **/ 
 %display-flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /*** (1) VARIABLES ***/
 
-$color1: green;
-$color2: blue;
-$valor: 500px;
+$color1: white;
+$color2: green;
+$valor: 400px;
 
 /*** NESTING ***/
 /*** MIXIN, OPERACIONS  ***/
@@ -31,16 +31,18 @@ $valor: 500px;
   @extend %display-flex;
 
   background-color: $secondary-color;
-  border: red solid 2px;
-  height: $valor/2;
-  width: $valor;
+  border: $color_border solid $gruix_border;
+  height: $valor*1.2;
+  width: $valor*0.8;
   &> div {
-    font-size: 2rem;
-    padding: $valor/40 + 3;
-    @include coloreja_i_subratlla(green, underline);
+    font-size: 1.5rem;
+    padding: $valor/40 + 5;
+    @include coloreja_i_subratlla($color1, underline);
 
     span {
       font-size: 2em;
+      background-color: $color2;
+      padding: 5px 10px;
     }
   }
 }
