@@ -7,7 +7,7 @@ body {
 
 /*** MIXIN ***/
 /** EXTEND **/
-.contenidor {
+.contenidor .item, .contenidor {
   display: flex;
   flex-direction: column;
 }
@@ -16,21 +16,24 @@ body {
 /*** NESTING ***/
 /*** MIXIN, OPERACIONS  ***/
 .contenidor {
-  background-color: blue;
+  background-color: magenta;
   border: purple solid 5px;
-  height: 480px;
+  height: 400px;
   width: 320px;
 }
 .contenidor .item {
-  font-size: 1.5rem;
-  padding: 15px;
-  color: white;
+  font-size: 2.5rem;
+  padding: 20px;
+  color: black;
   text-decoration: underline;
 }
 .contenidor .item span {
   font-size: 2em;
-  background-color: purple;
+  background-color: green;
   padding: 5px 10px;
+}
+.contenidor .item span:hover {
+  color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */
