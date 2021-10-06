@@ -12,10 +12,6 @@
         font-size: 15px;
       }
 
-      main,
-      div {
-        padding: 10px 15px;
-      }
 
       /**  px  **/
       main {
@@ -32,7 +28,7 @@
       /**  rem  **/
       #div2 {
         background-color: cadetblue;
-        font-size: 2rem;
+        font-size: 4rem;
       }
     </style>
   </head>
@@ -46,12 +42,10 @@
     <main>
       main has font size = 20px
       <div id="div1">
-        div1 has font-size 2em = 40px (2 x the font-size inherited by the
-        element)
+        div1 has font-size 2em = 40px (2 x the font-size of &lt;main&gt;)
       </div>
       <div id="div2">
-        div2 has font-size 2rem = 30px (2 x the font-size of the root element,
-        established using the * selector )
+        div2 has font-size 4rem = 60px (2 x the font-size of the root (* selector )
       </div>
     </main>
   </body>

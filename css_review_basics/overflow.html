@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Overflow, example</title>
     <style>
+      #overflow1 {
+        background-color: grey;
+        width: 200px;
+        height: 50px;
+        border: 1px dotted black;
 
-        #overflow1 {
-            background-color: grey;
-            width: 200px;
-            height: 50px;
-            border: 1px dotted black;
-            
-            overflow: clip;
-        }
+        overflow: clip;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
-    <div id="overflow1">You can use the overflow property when you want to have better control of the layout. The
-        overflow property
-        specifies what happens if content overflows an element's box.</div>
-
-</body>
-
+  <body>
+    <div id="overflow1">
+      <p>
+        You can use the overflow property when you want to have better control of the layout. The overflow
+        property specifies what happens if content overflows an element's box.
+      </p>
+    </div>
+  </body>
 </html>
