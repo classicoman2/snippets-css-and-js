@@ -1,11 +1,11 @@
 .container {
-    display:flex;
-    background-color: grey;
-    margin-bottom: 20px;;
+  display: flex;
+  background-color: grey;
+  margin-bottom: 20px;
 }
 
 .container > div {
-    padding: 20px 5px;
+  padding: 20px 5px;
 }
 
 /*
@@ -15,13 +15,12 @@ Flex-grow tells our element whether or not it can take up additional space.
 */
 
 #container_1 div:first-child {
-    background-color:orange;
-    flex-grow:1;
+  background-color: orange;
+  flex-grow: 1;
 }
 #container_1 div:nth-child(2) {
-    background-color:aqua;
+  background-color: aqua;
 }
-
 
 /*
 If more than 1 item uses "flex-grow" in a container,
@@ -29,15 +28,14 @@ If more than 1 item uses "flex-grow" in a container,
     - The item takes 2/5 of the available space;  the second item takes 3/5 of available space.
 */
 #container_2 div:first-child {
-    background-color:orange;
-    flex-grow:2;
+  background-color: orange;
+  flex-grow: 2;
 }
 #container_2 div:nth-child(2) {
-    background-color:aqua;
-    flex-grow:3;
+  background-color: aqua;
+  flex-grow: 3;
 }
 
 /*
 An element with flex-grow:0 will not try to take available space. 
 */
-

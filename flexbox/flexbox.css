@@ -2,7 +2,7 @@
   background: lightgray;
 
   height: 600px;
-  width: 500px;
+  width: 300px;
 
   display: flex;
   flex-direction: row;
@@ -10,7 +10,7 @@
 
   justify-content: center;
   align-items: center;
-  align-content: flex-end;
+  align-content: flex-start;
 }
 
 .item {
@@ -20,11 +20,10 @@
 
   padding: 10px 20px;
   margin: 2px;
-
 }
 
-.item1 {
-    flex-grow: 1;
+.item2 {
+    order:-1;
 }
 
 
