@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Different font weights</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .fonts > p {
+        font-family: "Montagu Slab", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Only in fonts that accept different weights.</p>
+    <p>
+      For instance: the
+      <a href="https://fonts.google.com/specimen/Montagu+Slab">Montagu Slab</a>
+      <b>Google Font</b>
+    </p>
+    <div class="fonts">
+      <p class="w-100">Lorem ipsum bla bla bla</p>
+      <p class="w-200">Lorem ipsum bla bla bla</p>
+      <p class="w-300">Lorem ipsum bla bla bla</p>
+      <p class="w-400">Lorem ipsum bla bla bla</p>
+      <p class="w-500">Lorem ipsum bla bla bla</p>
+      <p class="w-600">Lorem ipsum bla bla bla</p>
+      <p class="w-700">Lorem ipsum bla bla bla</p>
+    </div>
+  </body>
+  <script>
+    for (i = 1; i < 8; i++) {
+      let className = "w-" + i * 100;
+      for (element of document.getElementsByClassName(className))
+        element.style.fontWeight = i * 100;
+    }
+  </script>
+</html>
