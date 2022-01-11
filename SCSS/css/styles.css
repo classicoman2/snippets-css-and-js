@@ -24,7 +24,7 @@ body {
 .contenidor .item {
   font-size: 2.5rem;
   padding: 20px;
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 .contenidor .item span {
@@ -34,6 +34,4 @@ body {
 }
 .contenidor .item span:hover {
   color: red;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

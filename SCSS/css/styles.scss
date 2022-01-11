@@ -2,7 +2,7 @@
 @import "modul";
 
 /** PARTIAL:  INSERTA EL SCSS AQUI **/
-@import "parcial";
+@import "_parcial";
 
 /*** MIXIN ***/
 
@@ -38,7 +38,7 @@ $valor: 400px;
 
     font-size: 2.5rem;
     padding: $valor/40 + 10;
-    @include color_i_estil(black, underline);
+    @include color_i_estil(white, underline);
 
     span {
       font-size: 2em;
