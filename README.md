@@ -1,53 +1,32 @@
-# snippets-css-and-js
+# CSS AND JS SNIPPETS
 
-Snippets of CSS and JS for the classes of the DAW module _Design of Web Interfaces_. Copy them and modify the code to adapt to your application.
+:warning: This repo is a work in progress :warning:
+
+A collection of snippets for my classes of the module _Design of Web Interfaces_. Copy them and modify the code to adapt to your application.
 Remember always try to improve your code and remove what is unnecessary (certainly you can improve these snippets too!!)
 
-:warning: Aquest repositori es troba en permanent actualització. 
 
 ## Short Snippets
 
 - [x] Including CSS and JS files in an HTML doc
 
-## ADVANCED LAYOUT
+### Advanced CSS
 
+- [X] CSS Flexbox
+- [X] CSS Grid
 
-### CSS Flexbox
+## Interactive Elements
 
-- [X] Flexbox properties examples
-
-### CSS Grid
-
-- [x] Basic Grid
-
-## INTERACTIVE ELEMENTS
-
-### Accordion
-
-- [x] [Basic Accordion example](https://www.w3schools.com/howto/howto_js_accordion.asp)
-
-### Animated Search Input
-
-An Animated Search Input  is a usual resource to add usability to a site
-
-- [x] [How to create a Search bar](https://www.w3schools.com/howto/howto_css_searchbar.asp). I.e: wook.pt, onallibres.cat and casadellibro.com
+- [x] [Accordion - Basic example](https://www.w3schools.com/howto/howto_js_accordion.asp)
+- [x] [Animated Search bar input field](https://www.w3schools.com/howto/howto_css_searchbar.asp). I.e: wook.pt, onallibres.cat, casadellibro.com
 - [x] [Basic Animated Search Input](https://www.w3schools.com/howto/howto_css_animated_search.asp)
+- [x] [Manual Slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+- [x] [Automatic Slideshow I](https://www.freecodecamp.org/news/how-to-create-a-slideshow/ ) / [Automatic Slideshow II](https://codepen.io/AndresUris/pen/rGXpvE)
+- [x] Cookies Alert: [on Top in bbc.com](https://www.bbc.com/) ([also here](https://www.gov.uk/)) / [at the bottom and using opacity](https://www.mirror.co.uk/) / [centered](https://www.msn.com/es-es/noticias/)
 
-### Carousel (Slideshow)
+### Menu
 
-- [x] Slideshow no automàtic. Fés-li un cop d'ull [aquí](https://www.w3schools.com/howto/howto_js_slideshow.asp)
-- [x] Slideshow automàtic. En clicar sobre les imatges, rota. Caldria afegir-li uns botons per fer-lo "professional". Codi original [aqui](https://www.freecodecamp.org/news/how-to-create-a-slideshow/ ) i [aquí](https://codepen.io/AndresUris/pen/rGXpvE)
-
-### Cookies Alert
-
-A Cookies Policy alert pops up when you enter its website, [in the top](https://www.bbc.com/) ([also here](https://www.gov.uk/)) or the bottom of the website and can use a transition to close and even [using an overlay with opacity](https://www.mirror.co.uk/) or with a [centered popup](https://www.msn.com/es-es/noticias/)
-
-### MENUS
-
-#### Topnav
-
-- [x] **Top Menu simple**. A simple and complete top navigation menu. Missing: inactive links. 
-  - Empra &lt;ul&gt; per crear estructura
+- [x] **Top Menu simple**. A simple and complete top navigation menu. Uses &lt;ul&gt; 
   - Com crear un Dropdown totsol: [aqui funciona amb _hover_](https://www.w3schools.com/howto/howto_css_dropdown.asp) i [aqui, en clicar a sobre](https://www.w3schools.com/howto/howto_js_dropdown.asp)
   - El mateix exemple amb diferent implementació: [aqui](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp)
 - [x] **Top Menu semiresponsive**. El primer element del menu superior es manté en fer-se responsive. Codi original: [aqui](https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp)
