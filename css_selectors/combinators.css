@@ -33,9 +33,9 @@ main span {
     background-color: sandybrown;
 }
 
-/** It won't work !!! **/
-#box2>span {
-  color: yellow;
+
+#box2 span {
+  color: green;
 }
 
 /** OK **/
@@ -46,13 +46,11 @@ div#box2 > p > span {
 /** general sibling combinator **/
 /** spans que son "germans", immediats o no, d'algun p **/
 p ~ span {
-    text-decoration: underline;
-    font-weight: bold;
-    color: green;
+    background: springgreen;
 }
 
 /** adjacent sibling combinator **/
 /* p que son immediatament consecutiu (posterior, no anterior) a algun p de classe liniaespecial */
 p.liniaespecial + p {
-    color: magenta;
+    background-color: salmon;
 }

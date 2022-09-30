@@ -1,88 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pseudo-classes combinations</title>
     <style>
-        * {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-        }
+      * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
 
-        div {
-            border: 1px black dotted;
-            margin: 5px;
-            width: 300px;
-            padding: 3px 5px;
-        }
+      div {
+        border: 1px black dotted;
+        margin: 5px;
+        width: 300px;
+        padding: 3px 5px;
+      }
 
-        h1, div {
-          cursor: pointer;
-        }
+      h1,
+      div {
+        cursor: pointer;
+      }
 
-        h1:hover {
-          color:red;
-        }
+      h1:hover {
+        color: red;
+      }
 
-        h1:active {
-          color: goldenrod;
-        }
+      h1:active {
+        color: goldenrod;
+      }
 
-        #box1:hover h2 {
-          color:purple;
-        }
+      #box1:hover h2 {
+        background: purple;
+      }
 
-        /** Similar but not the same as the last one **/
-        #box1 h2:hover {
-          background-color: green;
-        }
-
-        /* Doesn't work as h1 is not a descendant of #box1 */
-        #box1:hover h1 {
-          color:green;
-        }
-
-
+      /** it's not the same that last one **/
+      #box1 h2:hover {
+        background-color: green;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <h1>Pseudo-classes combinations</h1>
+      <h1>Pseudo-classes combinations</h1>
 
+      <div id="box1" class="box">
+        <h2>This is box number 1</h2>
+        <p>This is line <span>number 1</span></p>
+        <p>This is line <span>number 2</span></p>
+      </div>
 
-        <div id="box1" class="box">
-            <h2>This is box number 1</h2>
-            <p>This is line <span>number 1</span></p>
-            <p>This is line <span>number 2</span></p>
-        </div>
+      <div id="box2" class="box">
+        <h2>This is box number 2</h2>
+        <p>This is line <span>number 1</span></p>
+        <p>This is line <span>number 2</span></p>
+      </div>
 
-        <div id="box2" class="box">
-            <h2>This is box number 2</h2>
-            <p>This is line <span>number 1</span></p>
-            <p>This is line <span>number 2</span></p>
-        </div>
+      <div id="box3" class="box">
+        <h2>This is box number 2</h2>
+        <p>This is line <span>number 1</span></p>
+        <p>This is line <span>number 2</span></p>
+      </div>
 
-        <div id="box3" class="box">
-            <h2>This is box number 2</h2>
-            <p>This is line <span>number 1</span></p>
-            <p>This is line <span>number 2</span></p>
-        </div>
+      <br />
 
-        <br>
-
-        <p>line 1</p>
-        <div>div 1</div>
-        <p class="liniaespecial">line 2</p>
-        <div>div 2</div>
-        <p>line 3</p>
-        <p>line 4</p>
-        <p class="liniaespecial">line 5</p>
-        <p>line 6</p>
-        <p>line 7</p>
+      <p>line 1</p>
+      <div>div 1</div>
+      <p class="liniaespecial">line 2</p>
+      <div>div 2</div>
+      <p>line 3</p>
+      <p>line 4</p>
+      <p class="liniaespecial">line 5</p>
+      <p>line 6</p>
+      <p>line 7</p>
     </main>
-
-</body>
-
+  </body>
 </html>
