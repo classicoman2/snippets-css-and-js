@@ -1,90 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-classes</title>
+    <style>
+      * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pseudo-classes</title>
-  <style>
-    * {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    }
+      div {
+        border: 1px black dotted;
+        margin: 5px;
+        width: 300px;
+        padding: 3px 5px;
+      }
 
-    div {
-      border: 1px black dotted;
-      margin: 5px;
-      width: 300px;
-      padding: 3px 5px;
-    }
+      h1,
+      div {
+        cursor: pointer;
+      }
 
-    h1,
-    div {
-      cursor: pointer;
-    }
+      /**********************/
+      /** TREE STRUCTURAL  **/
+      /**********************/
 
+      :root {
+        background-color: blanchedalmond;
+      }
 
-    /** Selects the p that are the first child of their parent **/
-    p:first-child {
-      background-color: blue;
-    }
+      /** Selects the p that are the first child of their parent **/
+      p:first-child {
+        background-color: blue;
+      }
 
-    /** Selects the h2 that are the first child of their parent **/
-    h2:first-child {
-      color: green;
-    }
+      /** Selects the h2 that are the first child of their parent **/
+      h2:first-child {
+        color: green;
+      }
 
-    /** Selects the p that are the 2nd child of their parent **/
-    p:nth-child(2) {
-      background-color:lightcoral;
-    }
+      /** Selects the p that are the 2nd child of their parent **/
+      p:nth-child(2) {
+        background-color: lightcoral;
+      }
 
-    p:nth-child(3) {
-      background-color: magenta;
-    }
+      p:nth-child(3) {
+        background-color: magenta;
+      }
 
-    /** Selects the p that are the last child of their parent **/
-    p:last-child {
-      background-color: yellow;
-    }
+      /** Selects the p that are the last child of their parent **/
+      p:last-child {
+        background-color: yellow;
+      }
 
-  </style>
-</head>
+      /**********************/
+      /** INPUT  **/
+      /**********************/
 
-<body>
-  <main>
-    <div id="box1" class="box">
-      <h2>This is box number 1</h2>
-      <p>This is line <span>number 1</span></p>
-      <p>This is line <span>number 2</span></p>
-    </div>
+      input:valid {
+        background-color: green;
+      }
+      input:invalid {
+        background-color: red;
+      }
+    </style>
+  </head>
 
-    <div id="box2" class="box">
-      <p>This is line <span>number 1</span></p>
-      <p>This is line <span>number 2</span></p>
-      <h2>This is box number 2</h2>
-      <p>This is line <span>number 3</span></p>
-    </div>
+  <body>
+    <main>
+      <div id="box1" class="box">
+        <h2>This is box number 1</h2>
+        <p>This is line <span>number 1</span></p>
+        <p>This is line <span>number 2</span></p>
+      </div>
 
-    <div id="box3" class="box">
-      <p>This is line <span>number 1</span></p>
-      <p>This is line <span>number 2</span></p>
-      <p>This is line <span>number 3</span></p>
-      <h2>This is box number 3</h2>
-    </div>
+      <div id="box2" class="box">
+        <p>This is line <span>number 1</span></p>
+        <p>This is line <span>number 2</span></p>
+        <h2>This is box number 2</h2>
+        <p>This is line <span>number 3</span></p>
+      </div>
 
-    <br>
+      <div id="box3" class="box">
+        <p>This is line <span>number 1</span></p>
+        <p>This is line <span>number 2</span></p>
+        <p>This is line <span>number 3</span></p>
+        <h2>This is box number 3</h2>
+      </div>
 
-    <p>line 1</p>
-    <div>div 1</div>
-    <p class="liniaespecial">line 2</p>
-    <div>div 2</div>
-    <p>line 3</p>
-    <p>line 4</p>
-    <p class="liniaespecial">line 5</p>
-    <p>line 6</p>
-    <p>line 7</p>
-  </main>
+      <br />
 
-</body>
+      <p>line 1</p>
+      <div>div 1</div>
+      <p class="liniaespecial">line 2</p>
+      <div>div 2</div>
+      <p>line 3</p>
+      <p>line 4</p>
+      <p class="liniaespecial">line 5</p>
+      <p>line 6</p>
+      <p>line 7</p>
 
+      <br />
+      <br />
+
+      <h3>Form</h3>
+      <form action="/action_page.php">
+        <label for="email">Introdueix el teu email:</label>
+        <input type="email" id="email" name="email" />
+        <input type="submit" />
+      </form>
+    </main>
+  </body>
 </html>
