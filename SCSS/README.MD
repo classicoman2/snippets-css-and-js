@@ -1,11 +1,14 @@
 
 # Introducció Sass/SCSS
 
-Per compilar un fitxer SCS, primer hem d'instal·lar:
+Per compilar un fitxer SCS, primer crear un `package.json` si no el tenim instal·lat.
 
-    npm install -g sass
+Després instal·lam sass com _dependència de desenvolupament:_
 
-Per compilar un fitxer (des de directori /SCSS), 
+```bash
+npm install sass --save-dev
+```
+Afegim l'script:
 
     sass scss/styles.scss css/styles.css
 

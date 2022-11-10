@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Load an html file using JQuery</title>
 
-
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
       $(document).ready(() => {
         //Load the HTML contents of the header into <header>
-          $("header").load("./resources/header.html");
-          $("footer").load("./resources/footer.html");
-      });
+        $('header').load('./resources/header.html')
+        $('footer').load('./resources/footer.html')
+      })
     </script>
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
 
   <body>
+    
     <header></header>
-    This is the body
+
+    <main>This is the body</main>
 
     <footer></footer>
   </body>
