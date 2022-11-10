@@ -29,7 +29,6 @@ main span {
 /** Child Combinator **/
 /** The specific selector has preference over the general selector (the one above this one)  **/
 #box1 > p {
-    color: red;
     background-color: sandybrown;
 }
 
@@ -52,5 +51,5 @@ p ~ span {
 /** adjacent sibling combinator **/
 /* p que son immediatament consecutiu (posterior, no anterior) a algun p de classe liniaespecial */
 p.liniaespecial + p {
-    background-color: salmon;
+    background-color: red;
 }
