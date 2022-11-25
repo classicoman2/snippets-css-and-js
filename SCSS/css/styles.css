@@ -10,6 +10,8 @@ body {
 .contenidor .item, .contenidor {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid blue;
 }
 
 /*** (1) VARIABLES ***/
@@ -23,13 +25,15 @@ body {
 }
 .contenidor .item {
   font-size: 2.5rem;
-  padding: 20px;
-  color: white;
+  padding: 10px;
+  color: yellow;
   text-decoration: underline;
+  font-style: italic;
+  font-size: 0.7rem;
 }
 .contenidor .item span {
   font-size: 2em;
-  background-color: green;
+  background-color: yellow;
   padding: 5px 10px;
 }
 .contenidor .item span:hover {

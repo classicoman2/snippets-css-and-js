@@ -11,8 +11,8 @@
         height: 100px;
         width: 100px;
 
-        transition-property: height width font-size background-color color
-          margin-left transform;
+        transition-property: height width font-size background-color color margin-left
+          transform;
         transition-duration: 3s;
         transition-timing-function: linear;
         transition-delay: 0.2s;
@@ -32,18 +32,12 @@
   </head>
 
   <body>
-    <div id="object" class="classe1">
-      Clica a sobre per iniciar la transició
-    </div>
+    <div id="object" class="classe1">Clica a sobre per iniciar la transició</div>
   </body>
   <script>
-    // En aquest exemple, en clicar alterna entre l'estat inicial i el final
 
-    document.getElementById("object").onclick = function () {
-      let objecte = document.getElementById("object");
-      if (objecte.className == "classe1")
-        document.getElementById("object").classList.add("classe2");
-      else document.getElementById("object").className = "classe1";
-    };
+    document.getElementById('object').onmouseover = function () {
+      document.getElementById('object').classList.toggle('classe2')
+    }
   </script>
 </html>

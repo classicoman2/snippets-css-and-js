@@ -6,21 +6,25 @@
 
 /*** MIXIN ***/
 
-@mixin color_i_estil($color, $estil) {
+@mixin estil_de_font($color, $decoracio, $estil, $mida) {
   color: $color;
-  text-decoration: $estil;
+  text-decoration: $decoracio;
+  font-style: $estil;
+  font-size: $mida;
 }
 
 /** EXTEND **/
 %display-flex {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid blue;
 }
 
 /*** (1) VARIABLES ***/
 
 $color1: white;
-$color2: green;
+$color2: yellow;
 $valor: 400px;
 
 /*** NESTING ***/
@@ -37,8 +41,8 @@ $valor: 400px;
     @extend %display-flex;
 
     font-size: 2.5rem;
-    padding: $valor/40 + 10;
-    @include color_i_estil(white, underline);
+    padding: calc($valor/40);
+    @include estil_de_font(yellow,underline, italic, 0.7rem);
 
     span {
       font-size: 2em;

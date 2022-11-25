@@ -18,25 +18,15 @@
         transition-timing-function: linear;
         transition-delay: 1s;
       }
-
-      .classe2 {
-        /** new value **/
-        width: 500px;
-      }
     </style>
   </head>
 
   <body>
-    <div id="object" class="classe1">
-      Clica a sobre per iniciar la transició
-    </div>
+    <div id="object" class="classe1">Clica a sobre per iniciar la transició</div>
   </body>
   <script>
-    document.getElementById("object").onclick = function () {
-      document.getElementById("object").classList.add("classe2");
-
-      // Aixo també seria vàlid
-      /* document.getElementById("object").style.width = "500px"; */
-    };
+    document.getElementById('object').onmouseover = function () {
+      document.getElementById('object').style.width = '500px'
+    }
   </script>
 </html>
