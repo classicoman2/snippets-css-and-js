@@ -1,0 +1,28 @@
+.container {
+  background-color: black;
+  width: 450px;
+  height: 300px;
+  /********* ADD YOUR CODE  HERE **********/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  /********* END OF YOUR CODE **********/
+}
+
+.container > div {
+  color: white;
+  background-color: blue;
+  font-size: 25px;
+  margin: 10px;
+  padding: 20px;
+
+  /********* ADD YOUR CODE  HERE **********/
+  flex-grow: 1;
+  /********* END OF YOUR CODE **********/
+}
+
+.container > div:nth-child(5) {
+  background-color: red;
+  align-self: center;
+}
